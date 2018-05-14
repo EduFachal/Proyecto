@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="pilotos.xsl"?>
+	<pilotos>
+		<piloto>
+			<img ruta="../Imagenes/pilotos/ham.jpg"></img>
+			<nombre>Lewis Hamilton</nombre>
+            <escuderia>Mercedes</escuderia>
+			<numero>44</numero>
+			<edad>33</edad>
+			<grandes_premios>211</grandes_premios>
+            <victorias>64</victorias>
+            <podios>121</podios>
+            <campeonatos>4</campeonatos>
+			<nacionalidad>Britanico</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/bot.jpg"></img>
+			<nombre>Valtteri Bottas</nombre>
+            <escuderia>Mercedes</escuderia>
+			<numero>77</numero>
+			<edad>28</edad>
+			<grandes_premios>101</grandes_premios>
+            <victorias>3</victorias>
+            <podios>24</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Finlandes</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/vet.jpg"></img>
+			<nombre>Sebastian Vettel</nombre>
+            <escuderia>Ferrari</escuderia>
+			<numero>5</numero>
+			<edad>30</edad>
+			<grandes_premios>202</grandes_premios>
+            <victorias>49</victorias>
+            <podios>101</podios>
+            <campeonatos>4</campeonatos>
+			<nacionalidad>Aleman</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/kim.jpg"></img>
+			<nombre>Kimi Raikkonen</nombre>
+            <escuderia>Ferrari</escuderia>
+			<numero>7</numero>
+			<edad>38</edad>
+			<grandes_premios>277</grandes_premios>
+            <victorias>20</victorias>
+            <podios>94</podios>
+            <campeonatos>1</campeonatos>
+			<nacionalidad>Finlandes</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/ric.jpg"></img>
+			<nombre>Daniel Ricciardo</nombre>
+            <escuderia>Red Bull</escuderia>
+			<numero>3</numero>
+			<edad>28</edad>
+			<grandes_premios>130</grandes_premios>
+            <victorias>6</victorias>
+            <podios>28</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Australia</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/max.jpg"></img>
+			<nombre>Max Verstappen</nombre>
+            <escuderia>Red Bull</escuderia>
+			<numero>33</numero>
+			<edad>20</edad>
+			<grandes_premios>63</grandes_premios>
+            <victorias>3</victorias>
+            <podios>11</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Holandes</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/per.jpg"></img>
+			<nombre>Sergio Perez</nombre>
+            <escuderia>Force India Mercedes</escuderia>
+			<numero>11</numero>
+			<edad>28</edad>
+			<grandes_premios>140</grandes_premios>
+            <victorias>0</victorias>
+            <podios>8</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Mexicano</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/oc.jpg"></img>
+			<nombre>Esteban Ocon</nombre>
+            <escuderia>Force India Mercedes</escuderia>
+			<numero>31</numero>
+			<edad>21</edad>
+			<grandes_premios>33</grandes_premios>
+            <victorias>0</victorias>
+            <podios>0</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Frances</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/str.jpg"></img>
+			<nombre>Lance Stroll</nombre>
+            <escuderia>Williams Mercedes</escuderia>
+			<numero>18</numero>
+			<edad>19</edad>
+			<grandes_premios>24</grandes_premios>
+            <victorias>0</victorias>
+            <podios>1</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Canadiense</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/sir.jpg"></img>
+			<nombre>Sergey Sirotkin</nombre>
+            <escuderia>Williams Mercedes</escuderia>
+			<numero>35</numero>
+			<edad>22</edad>
+			<grandes_premios>3</grandes_premios>
+            <victorias>0</victorias>
+            <podios>0</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Ruso</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/gas.jpg"></img>
+			<nombre>Piere Gasly</nombre>
+            <escuderia>Toro Rosso Honda</escuderia>
+			<numero>10</numero>
+			<edad>22</edad>
+			<grandes_premios>9</grandes_premios>
+            <victorias>0</victorias>
+            <podios>0</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Frances</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/har.jpg"></img>
+			<nombre>Brandon Hartley</nombre>
+            <escuderia>Toro Rosso Honda</escuderia>
+			<numero>28</numero>
+			<edad>28</edad>
+			<grandes_premios>7</grandes_premios>
+            <victorias>0</victorias>
+            <podios>0</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Neozelandes</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/hul.jpg"></img>
+			<nombre>Nico Hulkenberg</nombre>
+            <escuderia>Renault</escuderia>
+			<numero>27</numero>
+			<edad>30</edad>
+			<grandes_premios>140</grandes_premios>
+            <victorias>0</victorias>
+            <podios>0</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Aleman</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/sai.jpg"></img>
+			<nombre>Carlos Sainz</nombre>
+            <escuderia>Renault</escuderia>
+			<numero>55</numero>
+			<edad>23</edad>
+			<grandes_premios>64</grandes_premios>
+            <victorias>0</victorias>
+            <podios>0</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Español</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/gros.jpg"></img>
+			<nombre>Romain Grosjean</nombre>
+            <escuderia>Haas Ferrari</escuderia>
+			<numero>8</numero>
+			<edad>32</edad>
+			<grandes_premios>127</grandes_premios>
+            <victorias>0</victorias>
+            <podios>10</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Frances</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/mag.jpg"></img>
+			<nombre>Kevin Magnussen</nombre>
+            <escuderia>Haas Ferrari</escuderia>
+			<numero>20</numero>
+			<edad>25</edad>
+			<grandes_premios>64</grandes_premios>
+            <victorias>0</victorias>
+            <podios>1</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Danes</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/al.jpg"></img>
+			<nombre>Fernando Alonso</nombre>
+            <escuderia>McLaren Renault</escuderia>
+			<numero>14</numero>
+			<edad>36</edad>
+			<grandes_premios>296</grandes_premios>
+            <victorias>32</victorias>
+            <podios>97</podios>
+            <campeonatos>2</campeonatos>
+			<nacionalidad>Español</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/van.jpg"></img>
+			<nombre>Stoffel Vandoorne</nombre>
+            <escuderia>McLaren Renault</escuderia>
+			<numero>2</numero>
+			<edad>26</edad>
+			<grandes_premios>24</grandes_premios>
+            <victorias>0</victorias>
+            <podios>0</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Belga</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/er.jpg"></img>
+			<nombre>Marcus Ericsson</nombre>
+            <escuderia>Alfa Romeo Sauber Ferrari</escuderia>
+			<numero>9</numero>
+			<edad>29</edad>
+			<grandes_premios>0</grandes_premios>
+            <victorias>0</victorias>
+            <podios>24</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Sueco</nacionalidad>
+		</piloto>
+        <piloto>
+			<img ruta="../Imagenes/pilotos/lec.jpg"></img>
+			<nombre>Charles Leclerc</nombre>
+            <escuderia>Alfa Romeo Sauber Ferrari</escuderia>
+			<numero>16</numero>
+			<edad>29</edad>
+			<grandes_premios>0</grandes_premios>
+            <victorias>0</victorias>
+            <podios>24</podios>
+            <campeonatos>0</campeonatos>pil/
+			<nacionalidad>Monegasco</nacionalidad>
+		</piloto>
+
+
+	</pilotos>
+	

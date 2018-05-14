@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="equipos.xsl"?>
+	<escuderias>
+		<escuderia>
+			<img ruta="../Imagenes/equipos/mer.jpg"></img>
+			<nombre>Mercedes AMG Petronas Motorsport</nombre>
+            <pilotos>Lewis Hamilton Valtteri Bottas</pilotos>
+			<grandes_premios>169</grandes_premios>
+            <victorias>78</victorias>
+            <podios>155</podios>
+            <campeonatos>4</campeonatos>
+			<nacionalidad>Alemana</nacionalidad>
+		</escuderia>
+        <escuderia>
+			<img ruta="../Imagenes/equipos/fer.png"></img>
+			<nombre>Scuderia Ferrari</nombre>
+            <pilotos>Sebastian Vettel Kimi Räikkönen</pilotos>
+			<grandes_premios>952</grandes_premios>
+            <victorias>229</victorias>
+            <podios>739</podios>
+            <campeonatos>16</campeonatos>
+		    <nacionalidad>Italiana</nacionalidad>
+		</escuderia>
+        <escuderia>
+			<img ruta="../Imagenes/equipos/red.png"></img>
+			<nombre>Aston Martin Red Bull Racing</nombre>
+            <pilotos>Daniel Ricciardo Max Verstappen</pilotos>
+			<grandes_premios>247</grandes_premios>
+            <victorias>56</victorias>
+            <podios>148</podios>
+            <campeonatos>4</campeonatos>
+			<nacionalidad>Austriaca</nacionalidad>
+		</escuderia>
+        <escuderia>
+			<img ruta="../Imagenes/equipos/for.png"></img>
+			<nombre>Sahara Force India F1 Team</nombre>
+            <pilotos>Sergio Perez Esteban Ocon</pilotos>
+			<grandes_premios>191</grandes_premios>
+            <victorias>0</victorias>
+            <podios>6</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>India</nacionalidad>
+		</escuderia>
+        <escuderia>
+			<img ruta="../Imagenes/equipos/wil.png"></img>
+			<nombre>Williams Martini Racing</nombre>
+            <pilotos>Lance Stroll Sergey Sirotkin</pilotos>
+			<grandes_premios>689</grandes_premios>
+            <victorias>114</victorias>
+            <podios>302</podios>
+            <campeonatos>9</campeonatos>
+		    <nacionalidad>Britanica</nacionalidad>
+		</escuderia>
+        <escuderia>
+			<img ruta="../Imagenes/equipos/rn.jpg"></img>
+			<nombre>Renault Sport Formula One Team</nombre>
+            <pilotos>Nico Hülkenberg Carlos Sainz</pilotos>
+			<grandes_premios>344</grandes_premios>
+            <victorias>35</victorias>
+            <podios>101</podios>
+            <campeonatos>2</campeonatos>
+			<nacionalidad>Francesa</nacionalidad>
+		</escuderia>
+         <escuderia>
+			<img ruta="../Imagenes/equipos/tr.jpg"></img>
+			<nombre>Red Bull Toro Rosso Honda</nombre>
+            <pilotos>Pierre Gasly Brendon Hartley</pilotos>
+			<grandes_premios>226</grandes_premios>
+            <victorias>1</victorias>
+            <podios>1</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Italiana</nacionalidad>
+		</escuderia>
+         <escuderia>
+			<img ruta="../Imagenes/equipos/haas.jpg"></img>
+			<nombre>Haas F1 Team</nombre>
+            <pilotos>Romain Grosjean Kevin Magnussen</pilotos>
+			<grandes_premios>42</grandes_premios>
+            <victorias>0</victorias>
+            <podios>0</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Americana</nacionalidad>
+		</escuderia>
+         <escuderia>
+			<img ruta="../Imagenes/equipos/mc.jpg"></img>
+			<nombre>McLaren F1 Team</nombre>
+            <pilotos>Fernando Alonso Stoffel Vandoorne</pilotos>
+			<grandes_premios>825</grandes_premios>
+            <victorias>182</victorias>
+            <podios>485</podios>
+            <campeonatos>8</campeonatos>
+			<nacionalidad>Britanica</nacionalidad>
+		</escuderia>
+         <escuderia>
+			<img ruta="../Imagenes/equipos/sau.jpg"></img>
+			<nombre>Alfa Rome Sauber F1 Team</nombre>
+            <pilotos>Marcus Ericcson Charles Leclerc</pilotos>
+			<grandes_premios>445</grandes_premios>
+            <victorias>1</victorias>
+            <podios>27</podios>
+            <campeonatos>0</campeonatos>
+			<nacionalidad>Suiza</nacionalidad>
+		</escuderia>
+     </escuderias>

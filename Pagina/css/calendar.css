@@ -1,0 +1,559 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: silver;
+	width: 100%;
+	height: 100%;
+}
+#cont{
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	background-color:  rgb(240, 188, 111);
+}
+.aus p{
+  text-align: center;
+  margin-top: 80%;
+}
+.shak p{
+  text-align: center;
+  margin-top: 80%;
+}
+.chi p{
+  text-align: center;
+  margin-top: 80%;
+}
+.azer p{
+  text-align: center;
+  margin-top: 80%;
+}
+.esp p{
+  text-align: center;
+  margin-top: 80%;
+}
+.mon p{
+  text-align: center;
+  margin-top: 80%;
+}
+.can p{
+  text-align: center;
+  margin-top: 80%;
+}
+.fran p{
+  text-align: center;
+  margin-top: 80%;
+}
+.aust p{
+  text-align: center;
+  margin-top: 80%;
+}
+.gb p{
+  text-align: center;
+  margin-top: 80%;
+}
+.ale p{
+  text-align: center;
+  margin-top: 80%;
+}
+.hun p{
+  text-align: center;
+  margin-top: 80%;
+}
+.bel p{
+  text-align: center;
+  margin-top: 80%;
+}
+.it p{
+  text-align: center;
+  margin-top: 80%;
+}
+.sin p{
+  text-align: center;
+  margin-top: 80%;
+}
+.rus p{
+  text-align: center;
+  margin-top: 80%;
+}
+
+
+
+nav a{
+	float: left;
+	margin-left: 60px;
+	text-align: center;
+	padding: 16px 16px 0px 16px;
+	text-decoration: none;
+	font-size: 10 px;
+	display: block;
+	border-radius: 10%;
+}
+ul{
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color:rgba(70, 66, 66, 0.685);
+	position: fixed;
+	height: 120px;
+	width:100%;
+	z-index: 99;
+}
+
+li a{
+	float: right;
+	margin-left: 40px;
+	text-align: center;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-size: 10 px;
+	display: block;
+	border-radius: 10%;
+}
+li a:hover{
+	color: #3284ad;
+	box-shadow: inset 0 0 0 3px #3284ad;
+	
+}
+li a:active{
+	background-color:red;
+	color:grey;
+}
+#login{
+	float:right;
+	border-left: 2px solid black;
+	width: 1px;
+}
+
+footer {
+	width: 100%;
+	display: inline-block;
+	
+	height: 70px;
+	background-color: #999;
+}
+.copyright {
+	  width: 50%;
+	  float: left;
+	  position:relative;
+	}
+.copyright p {
+		color: white;
+		font-size: 0.7em;
+		line-height: 70px;
+		text-transform: capitalize;
+		letter-spacing: 1px;
+		position: relative;
+		float: left;
+}
+.social {
+		width: 49%;
+		float: right;
+}
+.social a {
+		float: left;
+		line-height: 70px;
+		text-decoration: none;
+		color: white;
+		text-align: center;
+		font-weight: bold; 
+  }
+  
+  .insta {
+	background-color: rgb(215, 167, 238);
+	font-size: 1.2em;
+	width:20%;
+  }
+  
+  .face {
+	background-color: #3D5B94;
+	font-size: 1.2em;
+	width: 20%;
+  }
+  
+  .tweet {
+	background-color: #3DACDD;
+	font-size:1.2em;
+	width: 20%;
+  }
+  
+  .support {
+	background-color: #6dcd9a;
+	font-size: 0.8em;
+	width: 40%;
+  }
+ 
+  h1{
+      position: relative;
+      text-align: center;
+    	font-size: 3em;
+	    padding-top: 140px;
+    	font-style:italic;
+  	font-weight:bold;
+  	color:#272aec;
+  	font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  }
+  .container {
+      position: relative;
+    height: 100%; 
+    width: 100%; 
+    margin: auto;
+    border: 1px solid black;   
+    padding: 5px; 
+  }
+  
+
+  .aus{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/aus/aus.png"); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    margin: 5px;
+    margin-left:7%; 
+  }
+ 
+
+  .aus:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/aus/aus.jpg"); 
+    background-size: 200px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+
+
+.shak{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/bah/ban.jpg"); 
+    background-size: 250px;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%; 
+  }
+ 
+
+  .shak:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/bah/cir.png"); 
+    background-size: 200px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.chi{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/chi/ban.jpg"); 
+    background-size: 230px;
+    background-repeat: no-repeat;
+    margin: 5px;
+    margin-left:7%;  
+  }
+ 
+
+  .chi:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/chi/cir.png"); 
+    background-size: 200px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.azer{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/azer/ban.jpg"); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    margin: 5px;
+    margin-left:7%;  
+  }
+ 
+
+  .azer:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/azer/cir.png"); 
+    background-size: 200px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.esp{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/esp/esp.jpg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%;
+  }
+ 
+
+  .esp:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/esp/cir.jpg"); 
+    background-size: 220px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.mon{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/mon/ban.jpg"); 
+    background-size: 108%;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%; 
+  }
+ 
+
+  .mon:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/mon/cir.jpg"); 
+    background-size: 220px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.can{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/can/ban.png"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%; 
+  }
+ 
+
+  .can:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/can/cir.jpg"); 
+    background-size: 220px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.fran{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/fran/ban.png"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%; 
+  }
+ 
+
+  .fran:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/fran/cir.jpg"); 
+    background-size: 220px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.aust{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/aust/ban.png"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%;
+  }
+ 
+
+  .aust:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/aust/cir.png"); 
+    background-size: 220px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.gb{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/gb/ban.png"); 
+    background-size: 110%;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%; 
+  }
+ 
+
+  .gb:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/gb/cir.jpg"); 
+    background-size: 220px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.ale{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/ale/ban.png"); 
+    background-size: 110%;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%; 
+  }
+ 
+
+  .ale:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/ale/cir.jpg"); 
+    background-size: 220px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.hun{
+    height: 200px; 
+    width: 200px; 
+    background-image: url("../Imagenes/circuitos/hun/ban.png"); 
+    background-size: 130%;
+    background-repeat: no-repeat;
+    margin: 5px; 
+    margin-left:7%; 
+  }
+ 
+
+  .hun:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  background-image: url("../Imagenes/circuitos/hun/cir.jpg"); 
+    background-size: 220px;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: scale(1.5);
+}
+.bel{
+  height: 200px; 
+  width: 200px; 
+  background-image: url("../Imagenes/circuitos/bel/ban.jpg"); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 5px; 
+  margin-left:7%;
+}
+
+
+.bel:hover {
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+background-image: url("../Imagenes/circuitos/bel/cir.png"); 
+  background-size: 220px;
+  background-repeat: no-repeat;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+transform: scale(1.5);
+}
+.it{
+  height: 200px; 
+  width: 200px; 
+  background-image: url("../Imagenes/circuitos/it/ban.png"); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 5px; 
+  margin-left:7%; 
+}
+
+
+.it:hover {
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+background-image: url("../Imagenes/circuitos/it/cir.jpg"); 
+  background-size: 220px;
+  background-repeat: no-repeat;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+transform: scale(1.5);
+}
+.sin{
+  height: 200px; 
+  width: 200px; 
+  background-image: url("../Imagenes/circuitos/sin/ban.png"); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 5px; 
+  margin-left:7%; 
+}
+
+
+.sin:hover {
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+background-image: url("../Imagenes/circuitos/sin/cir.jpg"); 
+  background-size: 220px;
+  background-repeat: no-repeat;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+transform: scale(1.5);
+}
+.rus{
+  height: 200px; 
+  width: 200px; 
+  background-image: url("../Imagenes/circuitos/rus/ban.gif"); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 5px; 
+  margin-left:7%; 
+}
+
+
+.rus:hover {
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+background-image: url("../Imagenes/circuitos/rus/cir.jpg"); 
+  background-size: 220px;
+  background-repeat: no-repeat;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+transform: scale(1.5);
+}
+  .container-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: start; 
+  }
+    .box {
+      flex-shrink: 0; 
+    }
+    .box:last-child {
+      margin-right: auto; 
+    }
+  
+       

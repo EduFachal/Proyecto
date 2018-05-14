@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formula1</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="Imagenes/icono2.jpg">
+<body>
+		<header>
+			<nav>
+					<ul>
+						<a href="#"><img src="Imagenes/logos/logo.png" width="110px" height="50px"></a>
+					<li><a href="html/Formulario.html" ><img src="Imagenes/logos/login.png" width="80px" height="60px"><br>Sesion</a></li>					
+					<li><a href="html/MejoresMomentos.html"><img src="Imagenes/logos/video.png" width="80px" height="60px"><br>Mejores Momentos</a></li>
+					<li><a href="html/Calendario.html"><img src="Imagenes/logos/calendar.png" width="80px" height="60px"><br>Calendario</a></li>
+					<li><a href="html/Pilotos.html"><img src="Imagenes/logos/helmet.png" width="70px" height="50px"><br>Pilotos</a></li>
+					<li><a href="html/Equipos.html"><img src="Imagenes/logos/Equipos.png" width="120px" height="60px"><br>Equipos</a></li>
+				</ul>
+			</nav>
+			<div class="opaco">
+			<div id="carrusel">
+					<img class="mySlides" src="Imagenes/hs/hs11.jpg">
+					<img class="mySlides" src="Imagenes/hs/hs22.jpg">
+					<img class="mySlides" src="Imagenes/hs/hs33.jpg">
+			</div>
+			</div>
+		</header>
+		
+		
+	<div id="cont">		
+		<h1>INTRODUCCION</h1>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		<h1>NOVEDADES</h1>
+		<center>
+		<iframe id="new" src="https://www.bing.com/news/search?q=f%c3%b3rmula+1&FORM=HDRSC6" frameborder="1" scrolling="no" name="F1"></iframe>
+		</center>
+	</div>
+	
+	<footer>
+			<div class="copyright">
+			  <p>Eduardo Fachal</p>
+			</div>
+			<div class="social">
+			  <a href="#" class="support">Contact Us</a>
+			  <a href="https://www.facebook.com/Formula1/" class="face">f</a>
+			  <a href="https://twitter.com/f1" class="tweet">t</a>
+			  <a href="https://www.instagram.com/f1/?hl=en" class="insta">inst</a>
+			</div>
+	</footer>
+</body>
+<script>
+		var myIndex = 0;
+		carousel();
+		
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 4000); // Change image every 2 seconds
+		}
+</script>
+
+</html>

@@ -1,0 +1,184 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: silver;
+	width: 100%;
+	height: 100%;
+}
+#cont{
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgb(240, 188, 111);
+}
+
+nav a{
+	float: left;
+	margin-left: 60px;
+	text-align: center;
+	padding: 16px 16px 0px 16px;
+	text-decoration: none;
+	font-size: 10 px;
+	display: block;
+	border-radius: 10%;
+}
+ul{
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color:rgba(70, 66, 66, 0.685);
+	position: fixed;
+	height: 120px;
+	width:100%;
+	z-index: 99;
+}
+
+li a{
+	float: right;
+	margin-left: 40px;
+	text-align: center;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-size: 10 px;
+	display: block;
+	border-radius: 10%;
+}
+li a:hover{
+	color: #3284ad;
+	box-shadow: inset 0 0 0 3px #3284ad;
+	
+}
+li a:active{
+	background-color:red;
+	color:grey;
+	
+}
+#login{
+	float:right;
+	border-left: 2px solid black;
+	width: 1px;
+	
+}
+
+h1{
+	text-align: center;
+	font-size: 3em;
+	padding-top: 10px;
+	margin-top: 110px;
+	font-style:italic;
+  	font-weight:bold;
+  	color:#272aec;
+  	font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+ 
+#new{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-size: 100%;
+	z-index: 2;
+}
+#calen{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background-size: 100%;
+	z-index: 2;
+}
+h2{
+	padding-top: 130px;
+	padding-bottom: 20px;
+}
+#carrusel{
+	width: 100%;
+	height: 500px;
+}
+.mySlides{
+	
+	display: none;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	padding-top: 110px;
+}
+
+.news {
+	transition: all .2s ease-in-out;
+	margin-left: 6%;
+	max-width: 75em;
+}
+.news a:hover{
+	transform: scale(1.1);
+}
+.news a{
+	
+	margin: 0;
+	padding: 0;
+
+}
+footer {
+	width: 100%;
+	display: inline-block;
+	
+	height: 70px;
+	background-color: #999;
+}
+.copyright {
+	  width: 50%;
+	  float: left;
+	  position:relative;
+	}
+.copyright p {
+		color: white;
+		font-size: 0.7em;
+		line-height: 70px;
+		text-transform: capitalize;
+		letter-spacing: 1px;
+		position: relative;
+		float: left;
+}
+.social {
+		width: 49%;
+		float: right;
+}
+.social a {
+		float: left;
+		line-height: 70px;
+		text-decoration: none;
+		color: white;
+		text-align: center;
+		font-weight: bold; 
+  }
+  
+  .insta {
+	background-color: rgb(215, 167, 238);
+	font-size: 1.2em;
+	width:20%;
+  }
+  
+  .face {
+	background-color: #3D5B94;
+	font-size: 1.2em;
+	width: 20%;
+  }
+  
+  .tweet {
+	background-color: #3DACDD;
+	font-size:1.2em;
+	width: 20%;
+  }
+  
+  .support {
+	background-color: #6dcd9a;
+	font-size: 0.8em;
+	width: 40%;
+  }
+  
